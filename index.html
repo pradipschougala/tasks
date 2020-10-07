@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+        </div>
+        <div class="two columns u-pull-right">
+          <ul>
+            <li class="submenu">
+              <img src="img/cart.png" id="img-cart">
+              <div id="cart">
+                <table id="list-cart" class="u-full-width">
+                  <thead>
+                    <tr>
+                      <th>Image</th>
+                      <th>Number</th>
+                      <th>Price</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="empty-cart" class="button u-full-width">empty cart</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="list-courses">
+    <h1 id="header__courses">Online courses</h1>
+
+    <div class="courses__container">
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course1.jpg" class="image__course">
+          <div class="info__card">
+            <h4>HTML5, CSS3, JavaScript for starters</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#" class="add-cart" data-id="1"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course2.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Vegetarian Food course</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#" class="add-cart" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course3.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Guitar for Beginners</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="3"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course4.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Orchard in your house</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="4"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course5.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Decoration with products from your home</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="5"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course1.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Web Design for Beginners</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="6"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course2.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Mexican food for beginners</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="7"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course3.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Musical studio in your home</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#" class="add-cart"  data-id="8"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course4.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Harvest your own fruits and vegetables</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#" class="add-cart"  data-id="9"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course5.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Make homemade cookies</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="10"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course1.jpg" class="image__course">
+          <div class="info__card">
+            <h4>Modern JavaScript with ES6</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="11"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="course__item">
+        <div class="course__card">
+          <img src="img/course2.jpg" class="image__course">
+          <div class="info__card">
+            <h4>100 Natural Food Recipes</h4>
+            <img src="img/stars.png">
+            <p><span class="price">$200</span> <span class="discount">$15</span>  </p>
+            <a href="#"  class="add-cart"  data-id="12"><i class="fa fa-cart-plus"></i>&nbsp;  add to cart</a>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
